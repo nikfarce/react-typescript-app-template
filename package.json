@@ -1,0 +1,19 @@
+{
+  "name": "react-typescript-app-template",
+  "version": "0.0.0",
+  "description": "React application template in TypeScript",
+  "main": "./src/index.ts",
+  "repository": "https://github.com/nikfarce/react-typescript-app-template.git",
+  "author": "Nik <nikfarce@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5"
+  }
+}
