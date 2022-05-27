@@ -28,7 +28,6 @@ module.exports = function sassRule(isDev) {
     },
     {
       test: sassModuleRegex,
-      exclude: sassRegex,
       use: [
         lastLoader,
         'css-modules-typescript-loader',
