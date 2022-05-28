@@ -1,5 +1,6 @@
 webpack
 dist
 public
+docs
 postcss.config.js
 webpack.config.js

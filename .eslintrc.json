@@ -34,6 +34,10 @@
             "imports": "always-multiline",
             "exports": "always-multiline",
             "functions": "only-multiline"
+        }],
+        "import/extensions": ["error", {
+            "ts": "never",
+            "tsx": "never"
         }]
     }
 }
