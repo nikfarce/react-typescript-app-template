@@ -15,6 +15,7 @@
     "noUnusedParameters": true,
     "noUncheckedIndexedAccess": true,
     "resolveJsonModule": true,
+    "moduleResolution": "node",
     "noEmit": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -26,5 +27,11 @@
   },
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "typedocOptions": {
+    "entryPoints": ["./src"],
+    "entryPointStrategy": "expand",
+    "out": "docs",
+    "exclude": "**/*+(.scss|.sass).d.ts"
+  }
 }
