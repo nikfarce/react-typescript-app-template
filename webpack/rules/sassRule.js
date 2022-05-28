@@ -33,11 +33,13 @@ module.exports = function sassRule(isDev) {
         'css-modules-typescript-loader',
         cssLoader({
           importLoaders: 1,
-          modules: isDev || { getLocalIdent: localIndent },
+          modules: isDev
+            ? { localIdentName: '[name]_[local]__[hash:base64:5]' }
+            : { getLocalIdent: localIndent },
         }),
         postcssLoader,
         sassLoader,
       ],
     },
   ];
-}
+};
